@@ -2,15 +2,16 @@
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="ctrl minus" />
-  </action>
   <action id="CollapseRegionRecursively">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -23,6 +24,9 @@
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="1" />
@@ -53,11 +57,8 @@
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
-  <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="ctrl equals" />
-  </action>
   <action id="ExpandRegionRecursively">
-    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl equals" />
