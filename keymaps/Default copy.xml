@@ -24,6 +24,10 @@
   <action id="EditorResetFontSize">
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -70,8 +74,14 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="RecentFiles" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl decimal" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
 </keymap>
