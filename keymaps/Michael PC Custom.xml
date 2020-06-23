@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy" parent="$default">
+<keymap version="1" name="Michael PC Custom" parent="$default">
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
@@ -28,6 +28,8 @@
   <action id="EditorIncreaseFontSize">
     <mouse-shortcut keystroke="control button143" />
   </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorResetFontSize">
     <mouse-shortcut keystroke="control button2" />
   </action>
@@ -86,8 +88,12 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
-  <action id="NextTab" />
-  <action id="PreviousTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="RecentFiles" />
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl f5" />
