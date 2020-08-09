@@ -1,0 +1,18 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d704ab6c-19ee-4830-a295-70e9e7c84b29" name="liumz@localhost:12354" url="http:///">
+        <fileTransfer accessType="SFTP" sshConfigId="b3afa949-8589-45ce-9265-f8b78c883b6f" sshConfig="liumz@localhost:12354 password" />
+      </webServer>
+      <webServer id="2faaed9f-724b-4f71-9f72-4f0996e2b5e5" name="liumz@localhost:12354" url="http:///">
+        <fileTransfer accessType="SFTP" sshConfigId="89e86695-e014-4ed4-b4e4-fbe4985ef95b" sshConfig="liumz@localhost:12354 password" />
+      </webServer>
+      <webServer id="2faaed9f-724b-4f71-9f72-4f0996e2b5e5" name="liumz@localhost:12354" url="http:///">
+        <fileTransfer accessType="SFTP" sshConfigId="89e86695-e014-4ed4-b4e4-fbe4985ef95b" sshConfig="liumz@localhost:12354 password" />
+      </webServer>
+      <webServer id="65055ffc-fde8-40c8-b603-d9a7f78aab54" name="liumz@localhost:12354" url="http:///">
+        <fileTransfer accessType="SFTP" host="localhost" port="12354" sshConfigId="92b7ac96-ad30-4f77-a506-51ca1f98af57" sshConfig="liumz@localhost:12354 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
