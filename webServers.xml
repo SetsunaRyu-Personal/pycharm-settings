@@ -2,7 +2,13 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="0f0b563c-cac3-451e-a33d-4d02771efce2" name="michael@192.168.31.38:22 password">
-        <fileTransfer accessType="SFTP" host="192.168.31.38" port="22" sshConfigId="9c55ac68-6363-48ac-aa29-48574f158661" sshConfig="michael@192.168.31.38:22 password" />
+        <fileTransfer accessType="SFTP" sshConfigId="9c55ac68-6363-48ac-aa29-48574f158661" sshConfig="michael@192.168.31.38:22 password" />
+      </webServer>
+      <webServer id="b3ab8cf5-3a0f-4f6f-8e03-4a6baf3f85a5" name="michael@192.168.31.38:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.31.38" port="22" sshConfigId="80f9380e-7c9b-4c3e-a476-9db1780449a6" sshConfig="michael@192.168.31.38:22 password" />
+      </webServer>
+      <webServer id="b3ab8cf5-3a0f-4f6f-8e03-4a6baf3f85a5" name="michael@192.168.31.38:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.31.38" port="22" sshConfigId="80f9380e-7c9b-4c3e-a476-9db1780449a6" sshConfig="michael@192.168.31.38:22 password" />
       </webServer>
     </option>
   </component>
