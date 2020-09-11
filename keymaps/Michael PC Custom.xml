@@ -42,7 +42,6 @@
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
-    <keyboard-shortcut first-keystroke="ctrl decimal" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="1" />
